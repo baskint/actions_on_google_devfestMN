@@ -22,7 +22,7 @@ const maps = require('@google/maps');
 const config = functions.config();
 
 const client = maps.createClient({
-  key: config.geocoding.key
+  key: config.maps.key
 });
 
 // Dialogflow actions
