@@ -20,14 +20,14 @@
 // https://firebase.google.com/docs/database/
 const firebaseAdmin = require('firebase-admin');
 // Import local JSON file as Cloud Function dependency
-const cert = require('path/to/serviceAccountKey.json');
+const cert = require('./trivia-tapkan-firebase-adminsdk-mtisw-aa23581f12.json');
 
 const DATABASE_DATA_KEY = 'data';
 
 // Initialize firebase database access
 firebaseAdmin.initializeApp({
   credential: firebaseAdmin.credential.cert(cert),
-  databaseURL: 'https://<DATABASE_NAME>.firebaseio.com'
+  databaseURL: 'https://trivia-tapkan.firebaseio.com'
 });
 
 // Wait for data to be updated before exiting app
