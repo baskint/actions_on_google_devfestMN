@@ -1,0 +1,92 @@
+[
+  {
+    "value": "speed",
+    "synonyms": [
+      "speed",
+      "rate"
+    ]
+  },
+  {
+    "value": "say-as",
+    "synonyms": [
+      "say-as",
+      "say as",
+      "say",
+      "interpret"
+    ]
+  },
+  {
+    "value": "audio",
+    "synonyms": [
+      "audio",
+      "sound",
+      "external"
+    ]
+  },
+  {
+    "value": "break",
+    "synonyms": [
+      "break",
+      "stop",
+      "pause",
+      "wait"
+    ]
+  },
+  {
+    "value": "sub",
+    "synonyms": [
+      "sub",
+      "substitute",
+      "substitution",
+      "alternative"
+    ]
+  },
+  {
+    "value": "emphasis",
+    "synonyms": [
+      "emphasis"
+    ]
+  },
+  {
+    "value": "pitch",
+    "synonyms": [
+      "pitch"
+    ]
+  },
+  {
+    "value": "prosody",
+    "synonyms": [
+      "prosody"
+    ]
+  },
+  {
+    "value": "volume",
+    "synonyms": [
+      "volume",
+      "loudness",
+      "softness",
+      "quietness"
+    ]
+  },
+  {
+    "value": "paragraph",
+    "synonyms": [
+      "paragraph",
+      "sentence",
+      "p",
+      "s"
+    ]
+  },
+  {
+    "value": "layered",
+    "synonyms": [
+      "layered",
+      "par",
+      "seq",
+      "media",
+      "layer",
+      "parallel",
+      "sequential"
+    ]
+  }
+]

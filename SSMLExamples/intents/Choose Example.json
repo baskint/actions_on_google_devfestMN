@@ -1,0 +1,38 @@
+{
+  "id": "399809bf-f429-4636-9e24-544ae657398f",
+  "name": "Choose Example",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "tell.example",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d96c229b-f38e-45d7-b7a3-ea6ad9aed137",
+          "required": false,
+          "dataType": "@ssml-element",
+          "name": "element",
+          "value": "$element",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I couldn\u0027t get a response for the Choose Example intent from your webhook."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509999361000,
+  "fallbackIntent": false,
+  "events": []
+}

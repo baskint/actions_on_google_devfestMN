@@ -1,0 +1,191 @@
+[
+  {
+    "id": "4ea2b1f1-9739-48c0-a592-a2bb3038cf61",
+    "data": [
+      {
+        "text": "prosody",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2
+  },
+  {
+    "id": "08700ecd-949f-4949-a204-153576cb8b43",
+    "data": [
+      {
+        "text": "show me a ",
+        "userDefined": false
+      },
+      {
+        "text": "prosody",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "example",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "62948ffc-40cb-4fff-866d-d29a48c1f59f",
+    "data": [
+      {
+        "text": "prosody",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      },
+      {
+        "text": " element",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cf55635f-3123-49b0-8e38-4e666478c24a",
+    "data": [
+      {
+        "text": "give me an example of ",
+        "userDefined": false
+      },
+      {
+        "text": "prosody",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1509999360
+  },
+  {
+    "id": "7593726d-8c91-44f5-bcb0-de54284161b5",
+    "data": [
+      {
+        "text": "prosody",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "example",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "089656da-f36f-45b4-870a-626ecc01ba14",
+    "data": [
+      {
+        "text": "example of ",
+        "userDefined": false
+      },
+      {
+        "text": "prosody",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0b6f0a48-d6d6-4c8f-8ea7-248773f0c6a3",
+    "data": [
+      {
+        "text": "prosody",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      },
+      {
+        "text": " feature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8b07878d-79c1-4a24-83fc-63a976387436",
+    "data": [
+      {
+        "text": "give me an example of the ",
+        "userDefined": false
+      },
+      {
+        "text": "prosody",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      },
+      {
+        "text": " feature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "11aa897b-f97e-4f46-ad78-20175c06ba9d",
+    "data": [
+      {
+        "text": "give me an example of the ",
+        "userDefined": false
+      },
+      {
+        "text": "prosody",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      },
+      {
+        "text": " element",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d36eeeb1-1e16-4250-8d09-5bbe9246629c",
+    "data": [
+      {
+        "text": "let me hear an example of ",
+        "userDefined": false
+      },
+      {
+        "text": "prosody",
+        "alias": "element",
+        "meta": "@ssml-element",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
