@@ -23,7 +23,7 @@ const cmd = false;
 const inputs = [];
 
 // Example story: http://ifdb.tads.org/viewgame?id=mohwfk47yjzii14w
-const story = 'http://mirror.ifarchive.org/if-archive/games/zcode/LostPig.z8';
+const story = 'http://ifarchive.org/if-archive/games/zcode/LostPig.z8';
 
 // [START YourAction]
 // Preload the story data before first action request

@@ -1,0 +1,36 @@
+{
+  "userSays": [],
+  "id": "da8e311c-ae22-4076-8bac-1914fdfa3ad3",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sorry, I didn’t get that.",
+            "I\u0027m afraid I don\u0027t understand.",
+            "Sorry, say that again?",
+            "Sorry, can you say that again?",
+            "I didn\u0027t get that. Can you say it again?",
+            "Sorry, could you say that again?",
+            "Sorry, can you tell me again?",
+            "Sorry, tell me one more time?",
+            "Sorry, can you say that again?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

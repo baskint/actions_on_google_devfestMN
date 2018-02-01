@@ -1,0 +1,28 @@
+{
+  "language": "en",
+  "enabledDomainFeatures": [],
+  "enableFulfillment": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "voice adventures",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "FEMALE_1"
+  },
+  "defaultTimezone": "",
+  "webhook": {
+    "url": "https://aee6e807.ngrok.io",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false
+  },
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}

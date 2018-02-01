@@ -1,0 +1,336 @@
+{
+  "userSays": [
+    {
+      "id": "db5f9bed-33df-4387-a226-511a5af942be",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "west",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "07eeb9fb-35eb-4ebd-b032-5cf0ff83180b",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "east",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "57f2bdd8-7aa3-49b7-832e-0f41a083bf0f",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "south",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "0fe88d30-77ce-47fc-bf90-c8b98b4f8a9f",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "north",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4be40418-f9aa-4f69-aedd-659fb5baa08b",
+      "data": [
+        {
+          "text": "get "
+        },
+        {
+          "text": "down",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2926da14-b407-4bf7-b774-c28eaf8a0a92",
+      "data": [
+        {
+          "text": "get "
+        },
+        {
+          "text": "up",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b80d23e-a3fd-4286-94a9-0afba12d69ba",
+      "data": [
+        {
+          "text": "take me "
+        },
+        {
+          "text": "south",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c46bd83f-ee30-4283-b976-7170f9a8c68b",
+      "data": [
+        {
+          "text": "take me "
+        },
+        {
+          "text": "north",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "017e4994-2b54-4f61-a782-b82b354ef080",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "upwards",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "42cc6db1-cb17-4330-a754-51647c051059",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "downwards",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f42eb2d2-5a50-4d14-bb6d-e2423a39e3ac",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "down",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6845600-eba7-45a6-be74-0020ed72e6cb",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "up",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a0d11957-f885-4ac2-b992-abe731d79c9b",
+      "data": [
+        {
+          "text": "i want to go "
+        },
+        {
+          "text": "north",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b23afd5e-1a71-4f39-bb10-2ac229dc4387",
+      "data": [
+        {
+          "text": "lets go "
+        },
+        {
+          "text": "east",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46811d86-3c42-4ba7-aead-cfff4ce68695",
+      "data": [
+        {
+          "text": "lets go "
+        },
+        {
+          "text": "north",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e672785b-0186-4555-a151-9b411dd5d685",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "westwards",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "720b6f08-3f55-40ad-aab4-d1ef2e757db2",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "eastwards",
+          "alias": "Directions",
+          "meta": "@Directions",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1a754f1-62d1-4e4e-b7bd-74bc77a00cde",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "southwards",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c378e70-90f7-4708-842b-264005b3ebba",
+      "data": [
+        {
+          "text": "go "
+        },
+        {
+          "text": "northwards",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "fa55317a-7930-4770-809f-fd63ea3cae53",
+  "name": "Directions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.directions",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Directions",
+          "name": "Directions",
+          "value": "$Directions",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

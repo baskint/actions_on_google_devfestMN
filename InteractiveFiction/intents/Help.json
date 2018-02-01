@@ -1,0 +1,101 @@
+{
+  "userSays": [
+    {
+      "id": "44bc5226-5b06-4672-a881-d847da8f932e",
+      "data": [
+        {
+          "text": "can you help me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bf6e2c8-88fa-4aec-9515-45bad321e4c0",
+      "data": [
+        {
+          "text": "what do I do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4313c2bd-6f6b-4a45-821c-8e74b4d6d3c1",
+      "data": [
+        {
+          "text": "I need help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7e91c548-96be-4287-9194-127e2f2258bd",
+      "data": [
+        {
+          "text": "what can I do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f35e587b-de32-4b1d-9994-e3dc8eb8dca4",
+      "data": [
+        {
+          "text": "I don\u0027t know what to do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32dd64af-c766-425f-a863-c2d798fc47f0",
+      "data": [
+        {
+          "text": "help me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "abb350c2-3d5d-44a7-8e5d-b5cf537f648f",
+      "data": [
+        {
+          "text": "help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8b82b834-0334-4cf2-a53d-6762ac6d38d6",
+  "name": "Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You have to say a command to interact with the adventure. Each game can have its own commands, but common one\u0027s include look, jump and sing.",
+            "You have to say a command to interact with the adventure. You can also interact with things by saying something like \"take the book\".",
+            "You have to say a command to interact with the adventure. You can interact with other characters by saying their name and giving a command like, \"Ronald, give me the key\"."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

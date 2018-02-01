@@ -1,0 +1,123 @@
+starting build "1d1cdec6-d0ec-4e30-8de6-06c195e1404a"
+
+FETCHSOURCE
+Fetching storage object: gs://staging.sdk-interactive-tapkan.appspot.com/us.gcr.io/sdk-interactive-tapkan/appengine/default.20180131t205923:latest#1517454016936954
+Copying gs://staging.sdk-interactive-tapkan.appspot.com/us.gcr.io/sdk-interactive-tapkan/appengine/default.20180131t205923:latest#1517454016936954...
+/ [0 files][    0.0 B/ 67.4 KiB]
+/ [0 files][    0.0 B/ 67.4 KiB]
+-
+- [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+\
+\ [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+|
+| [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+/
+/ [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+-
+- [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+\
+\ [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+|
+| [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+/
+/ [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+-
+- [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+\
+\ [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+|
+| [0 files][    0.0 B/ 67.4 KiB]      0.0 B/s
+/
+/ [0 files][ 67.4 KiB/ 67.4 KiB]      0.0 B/s
+-
+- [1 files][ 67.4 KiB/ 67.4 KiB]      0.0 B/s
+Operation completed over 1 objects/67.4 KiB.
+BUILD
+Starting Step #0
+Step #0: Pulling image: gcr.io/gcp-runtimes/nodejs/gen-dockerfile@sha256:e815f1f724fd21fb11ff1ea1eee0c535f5524905255b5cede9d780dc98210f1d
+Step #0: sha256:e815f1f724fd21fb11ff1ea1eee0c535f5524905255b5cede9d780dc98210f1d: Pulling from gcp-runtimes/nodejs/gen-dockerfile
+Step #0: Digest: sha256:e815f1f724fd21fb11ff1ea1eee0c535f5524905255b5cede9d780dc98210f1d
+Step #0: Status: Downloaded newer image for gcr.io/gcp-runtimes/nodejs/gen-dockerfile@sha256:e815f1f724fd21fb11ff1ea1eee0c535f5524905255b5cede9d780dc98210f1d
+Step #0: Checking for Node.js.
+Finished Step #0
+Starting Step #1
+Step #1: Pulling image: gcr.io/cloud_builders/docker@sha256:b4cc2024cfe3fde8bfb17701b1bea4d038e6dfd48423abdb28e3be3545e55ce0
+Step #1: sha256:b4cc2024cfe3fde8bfb17701b1bea4d038e6dfd48423abdb28e3be3545e55ce0: Pulling from cloud_builders/docker
+Step #1: cf2c5e27174e: Already exists
+Step #1: a7bc5eb395b5: Already exists
+Step #1: a19c45128315: Already exists
+Step #1: d7d685446745: Pulling fs layer
+Step #1: d7d685446745: Verifying Checksum
+Step #1: d7d685446745: Download complete
+Step #1: d7d685446745: Pull complete
+Step #1: Digest: sha256:b4cc2024cfe3fde8bfb17701b1bea4d038e6dfd48423abdb28e3be3545e55ce0
+Step #1: Status: Downloaded newer image for gcr.io/cloud_builders/docker@sha256:b4cc2024cfe3fde8bfb17701b1bea4d038e6dfd48423abdb28e3be3545e55ce0
+Step #1: Sending build context to Docker daemon  291.8kB
+
+Step #1: Step 1/5 : FROM gcr.io/google-appengine/nodejs@sha256:55a813c7ae297b6dea54f1a039be415d4f0c4a7bba6445186ceb6b0ac983a319
+Step #1: sha256:55a813c7ae297b6dea54f1a039be415d4f0c4a7bba6445186ceb6b0ac983a319: Pulling from google-appengine/nodejs
+Step #1: Digest: sha256:55a813c7ae297b6dea54f1a039be415d4f0c4a7bba6445186ceb6b0ac983a319
+Step #1: Status: Downloaded newer image for gcr.io/google-appengine/nodejs@sha256:55a813c7ae297b6dea54f1a039be415d4f0c4a7bba6445186ceb6b0ac983a319
+Step #1:  ---> f8013bcfc8b6
+Step #1: Step 2/5 : COPY . /app/
+Step #1:  ---> 9ed440804344
+Step #1: Removing intermediate container e3e89ff5a45b
+Step #1: Step 3/5 : RUN /usr/local/bin/install_node '>=6.11.1'
+Step #1:  ---> Running in 81f9258431c2
+Step #1:  ---> 9d06c47c43de
+Step #1: Removing intermediate container 81f9258431c2
+Step #1: Step 4/5 : RUN npm install --unsafe-perm ||   ((if [ -f npm-debug.log ]; then       cat npm-debug.log;     fi) && false)
+Step #1:  ---> Running in bae1d8fce0f6
+Step #1:
+Step #1: > grpc@1.8.4 install /app/node_modules/grpc
+Step #1: > node-pre-gyp install --fallback-to-build --library=static_library
+Step #1:
+Step #1: [grpc] Success: "/app/node_modules/grpc/src/node/extension_binary/node-v57-linux-x64-glibc/grpc_node.node" is installed via remote
+Step #1:
+Step #1: > protobufjs@6.8.4 postinstall /app/node_modules/google-gax/node_modules/protobufjs
+Step #1: > node scripts/postinstall
+Step #1:
+Step #1:
+Step #1: > protobufjs@6.8.4 postinstall /app/node_modules/google-proto-files/node_modules/protobufjs
+Step #1: > node scripts/postinstall
+Step #1:
+Step #1: added 477 packages in 12.031s
+Step #1:  ---> 8b9710082c4f
+Step #1: Removing intermediate container bae1d8fce0f6
+Step #1: Step 5/5 : CMD npm start
+Step #1:  ---> Running in 7887ea10bb03
+Step #1:  ---> 880eb6e96806
+Step #1: Removing intermediate container 7887ea10bb03
+Step #1: Successfully built 880eb6e96806
+Step #1: Successfully tagged us.gcr.io/sdk-interactive-tapkan/appengine/default.20180131t205923:latest
+Finished Step #1
+PUSH
+Pushing us.gcr.io/sdk-interactive-tapkan/appengine/default.20180131t205923:latest
+The push refers to a repository [us.gcr.io/sdk-interactive-tapkan/appengine/default.20180131t205923]
+078347156dae: Preparing
+efce233b90dc: Preparing
+bc37093ecf8a: Preparing
+b0532b80ed9e: Preparing
+87c9a22fb286: Preparing
+34b3438ad618: Preparing
+de5e96f3b52d: Preparing
+647127451460: Preparing
+0529bceacd9f: Preparing
+21df82f90a72: Preparing
+34b3438ad618: Waiting
+de5e96f3b52d: Waiting
+647127451460: Waiting
+0529bceacd9f: Waiting
+21df82f90a72: Waiting
+87c9a22fb286: Layer already exists
+bc37093ecf8a: Layer already exists
+b0532b80ed9e: Layer already exists
+de5e96f3b52d: Layer already exists
+34b3438ad618: Layer already exists
+647127451460: Layer already exists
+21df82f90a72: Layer already exists
+0529bceacd9f: Layer already exists
+efce233b90dc: Pushed
+078347156dae: Pushed
+latest: digest: sha256:ae143e144bda65514b2016216634492b023f0eb8fdde9c2f8b962ad2f98b9882 size: 2416
+DONE

@@ -1,0 +1,87 @@
+{
+  "id": "d7d97fee-dbcc-4ccf-ac7d-506d5f84a45a",
+  "name": "Directions",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "north",
+      "synonyms": [
+        "north",
+        "northwards"
+      ]
+    },
+    {
+      "value": "south",
+      "synonyms": [
+        "south",
+        "southwards"
+      ]
+    },
+    {
+      "value": "east",
+      "synonyms": [
+        "east",
+        "eastwards"
+      ]
+    },
+    {
+      "value": "west",
+      "synonyms": [
+        "west",
+        "westwards"
+      ]
+    },
+    {
+      "value": "northwest",
+      "synonyms": [
+        "northwest",
+        "north-west",
+        "north west",
+        "nw"
+      ]
+    },
+    {
+      "value": "northeast",
+      "synonyms": [
+        "northeast",
+        "north-east",
+        "north east",
+        "ne"
+      ]
+    },
+    {
+      "value": "southeast",
+      "synonyms": [
+        "southeast",
+        "south-east",
+        "south east",
+        "se"
+      ]
+    },
+    {
+      "value": "northwest",
+      "synonyms": [
+        "northwest",
+        "north-west",
+        "north west",
+        "nw"
+      ]
+    },
+    {
+      "value": "up",
+      "synonyms": [
+        "up",
+        "upwards"
+      ]
+    },
+    {
+      "value": "down",
+      "synonyms": [
+        "down",
+        "downwards"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

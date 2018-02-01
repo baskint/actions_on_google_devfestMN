@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "91a67ca4-777f-44bd-be18-b387b31fc3fa",
+      "data": [
+        {
+          "text": "tell me about this place"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8cda6b2e-6918-4eb1-b159-f8a42fc3b438",
+      "data": [
+        {
+          "text": "lets look around"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f686917-c1ed-4ef7-bae9-daad8119a19c",
+      "data": [
+        {
+          "text": "where am i"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74350e73-d055-425f-a4d2-8ec30a1337a7",
+      "data": [
+        {
+          "text": "look around"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a98d4feb-bba2-42a1-b273-b89361348514",
+      "data": [
+        {
+          "text": "look"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1c0c4dc0-4270-400f-bef5-75eaa640d24c",
+  "name": "Look",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.look",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
