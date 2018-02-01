@@ -37,12 +37,12 @@
   "conversations": {
     "welcome": {
       "name": "welcome",
-      "url": "YOUR_ENDPOINT_URL",
+      "url": "https://us-central1-eliza-sdk-tapkan.cloudfunctions.net/eliza",
       "fulfillmentApiVersion": 2
     },
     "rawInput": {
       "name": "rawInput",
-      "url": "YOUR_ENDPOINT_URL",
+      "url": "https://us-central1-eliza-sdk-tapkan.cloudfunctions.net/eliza",
       "fulfillmentApiVersion": 2
     }
   }
